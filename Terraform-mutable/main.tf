@@ -7,7 +7,7 @@ module "frontend" {
   COMPONENT = "frontend"
   PORT = 8080
   IS_PRIVATE_LB = false
-  LB_RULE_PRIORITY = 100
+  LB_RULE_PRIORITY = 102
 }
 
 output "INSTANCE_IDS" {
